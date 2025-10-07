@@ -13,13 +13,6 @@
 
 # 🧵 Taskline — Your Clickable Todo Companion in VS Code
 
-
-![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/CalebEphrem.taskline?label=Installs&color=blue&style=flat-square)
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/CalebEphrem.taskline?label=Version&color=green&style=flat-square)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blueviolet?style=flat-square)
-
-
 **Taskline** transforms your `.todo` files into a sleek, interactive todo app—right inside VS Code.  
 No more typing out tasks manually. Just click, complete, and conquer your day. ⚡
 
