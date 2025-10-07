@@ -1,0 +1,39 @@
+{
+  "name": "taskline",
+  "displayName": "Taskline",
+  "description": "A VSCode custom editor for TODO files",
+  "version": "1.0.0",
+  "main": "./extension.js",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "contributes": {
+    "customEditors": [
+      {
+        "viewType": "taskline.todoEditor",
+        "displayName": "Taskline Todo Editor",
+        "selector": [
+          {
+            "filenamePattern": "*.todo"
+          }
+        ]
+      }
+    ]
+  },
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "categories": [
+    "Other"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "@types/vscode": "^1.103.0",
+    "eslint": "^9.25.1"
+  },
+  "dependencies": {
+    "unique-custom-id": "^3.1.0"
+  }
+}
