@@ -1,12 +1,29 @@
 {
   "name": "taskline",
   "displayName": "Taskline",
-  "description": "A VSCode custom editor for TODO files",
+  "description": "👆 Your Clickable Todo Companion in VS Code",
+  "icon": "assets/icon.png",
   "version": "1.0.0",
   "main": "./extension.js",
+  "publisher": "CalebEphrem",
+  "author": {
+    "name": "Caleb Ephrem",
+    "email": "quantumpandaprog@gmail.com"
+  },
   "engines": {
     "vscode": "^1.103.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calebephrem/taskline"
+  },
+  "bugs": {
+    "url": "https://github.com/calebephrem/taskline/issues",
+    "email": "quantumpandaprog@gmail.com"
+  },
+  "activationEvents": [
+    "onLanguage:todo"
+  ],
   "contributes": {
     "customEditors": [
       {
@@ -27,6 +44,17 @@
   },
   "categories": [
     "Other"
+  ],
+  "keywords": [
+    "taskline",
+    "taskline todo",
+    "vscode todo",
+    "todo taskline",
+    "todo vscode",
+    "todo",
+    "todo editor",
+    "todo manager",
+    "todo management"
   ],
   "scripts": {},
   "devDependencies": {

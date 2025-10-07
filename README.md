@@ -15,7 +15,7 @@ No more typing out tasks manually. Just click, complete, and conquer your day. �
 2. Search **Taskline**
 3. Install the one by _Caleb Ephrem_
 4. Watch the magic happen—your todos now live in a custom editor UI.
-5. Give the [repo](https://github.com/calebephrem/quantum-vscode) a ⭐ star
+5. Give the [repo](https://github.com/calebephrem/taskline) a ⭐ star
 
 ## 📦 Why Taskline?
 
