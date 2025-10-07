@@ -35,5 +35,6 @@
   },
   "dependencies": {
     "unique-custom-id": "^3.1.0"
-  }
+  },
+  "license": "MIT"
 }
