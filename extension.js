@@ -435,6 +435,24 @@ class TodoEditorProvider {
       const vscode = acquireVsCodeApi();
       let collapsedSections = new Set();
 
+
+      (function restoreFocus() {
+        try {
+          const state = vscode.getState();
+          if (state && state.focusAfterUpdate) {
+            // Small timeout to ensure the element exists in the DOM
+            setTimeout(() => {
+              const taskInput = document.getElementById('newTaskInput');
+              if (taskInput) taskInput.focus();
+              // clear the flag so subsequent renders don't steal focus
+              vscode.setState({ focusAfterUpdate: false });
+            }, 50);
+          }
+        } catch (e) {
+          // ignore state errors
+        }
+      })();
+
       function addTask() {
         const taskInput = document.getElementById('newTaskInput');
         const prioritySelect = document.getElementById('prioritySelect');
@@ -442,12 +460,18 @@ class TodoEditorProvider {
         const text = taskInput.value.trim();
         if (!text) return;
 
+        try {
+          vscode.setState({ focusAfterUpdate: true });
+        } catch (e) {}
+
         vscode.postMessage({
           command: 'addTask',
           text: text,
           priority: prioritySelect.value,
         });
 
+        // Clear the input locally so the user sees it immediately. If the
+        // webview reloads, the state flag will re-focus the input.
         taskInput.value = '';
         prioritySelect.value = 'medium';
         taskInput.focus();
