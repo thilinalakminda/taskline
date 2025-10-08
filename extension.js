@@ -21,7 +21,7 @@ class TodoEditorProvider {
 
   // Generate UUID
   generateUUID() {
-    return ucid.format('uuid');
+    return ucid.format('short-uuid');
   }
 
   async resolveCustomTextEditor(document, webviewPanel, _token) {

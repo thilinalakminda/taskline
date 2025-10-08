@@ -3,7 +3,7 @@
   "displayName": "Taskline",
   "description": "👆 Your Clickable Todo Companion in VS Code",
   "icon": "assets/icon.png",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./extension.js",
   "publisher": "CalebEphrem",
   "author": {
